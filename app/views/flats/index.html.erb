@@ -1,1 +1,10 @@
 <h1>Flats</h1>
+<div class="d-flex flex-wrap justify-content-between">
+  <% @flats.each do |flat| %>
+    <div class="flat">
+      <img src="<%= flat["imageUrl"] %>" alt="<%= flat["name"] %>" class="w-100">
+      <h2><%= flat["name"] %></h2>
+      <p><%= flat["price"] %>€</p>
+    </div>
+  <% end %>
+</div>

@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+h2 {
+  font-size: 10px;
+}
+
+.flat {
+  width: 30%;
+}
